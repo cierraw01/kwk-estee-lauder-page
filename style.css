@@ -1,0 +1,274 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0px;
+}
+
+h1 {
+  color: #373fff;
+}
+
+.title {
+  font-size: 80px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  position: relative;
+  background: linear-gradient(178deg, #f7e8cb 0%,#fce494 38%,#7d5b36 76%,#5b5228 100%); /* W3C */
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+
+nav {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px;
+}
+
+.nav-bar-options {
+/*   display: flex;
+  flex-direction: row;
+  justify-content: space-between; */
+    display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+      display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    width: 100%;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.option {
+    -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  text-align: center;
+}
+
+.option:hover {
+  background: linear-gradient(178deg, #f7e8cb 0%,#fce494 38%,#7d5b36 76%,#5b5228 100%); /* W3C */
+
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+
+.shop-now-btn {
+  color: white;
+  background-color: black;
+  opacity: 0.85;
+  font-size: 20px;
+  margin-bottom: 0px;
+  padding-right: 300px;
+  padding-left: 300px;
+}
+
+.pics {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.lipsticks {
+  margin-left: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.media-3 {
+  margin-bottom: 6px;
+  margin-top: 0px;
+}
+
+.media-4 {
+  margin-top: 6px;
+  margin-bottom: 0px;
+}
+
+* {box-sizing: border-box;}
+.mySlides {display: none;  z-index: -1; position: relative; display: inline;}
+img {vertical-align: middle;}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  display: inline;
+}
+
+/* Caption text */
+.text {
+  position: absolute;
+  bottom: 0px;
+  padding: 10px;
+  padding-left: 570px;
+  padding-right: 570px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  background: rgb(0,0,0,0.7);
+}
+
+.module {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(https://cdn.glitch.com/97d6e817-3857-4e27-ba59-28504cfc928d%2F01%20Hero%20PC_HP.jpg?v=1592982973558);
+  background-size: cover;
+  width: 100%;
+  height: 832px;
+  position: relative;
+  float: left;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.mid h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  font-size: 2rem;
+  transform: translate(-50%, -50%);
+}
+
+.mid p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 750;
+  color: white;
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  top: 53%;
+  left: 50%;
+  font-size: 1.4rem;
+  transform: translate(-50%, -50%);
+}
+
+.mid button{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 750;
+  color: white;
+  background-color: black;
+  position: absolute;
+  text-align: center;
+  top: 68%;
+  left: 50%;
+  font-size: 1.4rem;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  border-radius: 4%;
+  border: 2px solid white;
+  padding: 10px;
+  z-index: 3;
+}
+
+button:hover {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 750;
+  color: black;
+  position: absolute;
+  text-align: center;
+  top: 68%;
+  left: 50%;
+  font-size: 1.4rem;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  border-radius: 4%;
+  border: 2px solid black;
+  background-color: white;
+  padding: 10px;
+  z-index: 3;
+}
+
+.shop {
+  color: white;
+  text-decoration: none;
+}
+
+.shop:hover {
+  border: 2px solid black;
+  color:black;
+}
+
+.more {
+  position: relative;
+  z-index: 3;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {max-width: 100%; font-size: 11px}
+}
